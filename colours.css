@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #cb0000;
+    --tertiary-color: #e6e1e1;
+}
+
+/* BACKGROUND COLOURS */
+header, footer nav  {
+    background-color: var(--primary-color);
+}
+
+header nav ul li {
+    background-color: var(--secondary-color);
+}
+
+ body, input, header nav ul li:hover, #currentpage {
+    background-color: var(--tertiary-color);
+}
+
+/* FONT COLOURS */
+
+h1, header nav ul li a,
+footer nav a {
+    color: var(--tertiary-color);
+}
+
+body, header nav ul li:hover a, #currentpage a {
+    color: var(--primary-color);
+}
